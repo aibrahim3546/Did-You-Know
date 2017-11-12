@@ -1,0 +1,13 @@
+{
+  "name": "Did You Know",
+  "manifest_version": 2,
+  "description": "Did You Know, every time you open up a new tab you will gain a knowledge.",
+  "version": "2.2.1",
+  "permissions": ["management"],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "128": "Images/ChromeExtension_logo.png"
+  }
+}
